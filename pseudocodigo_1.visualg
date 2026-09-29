@@ -1,0 +1,11 @@
+algoritmo "acumulador"
+var
+   i: inteiro
+   acumulador: real
+inicio
+   acumulador <- 0
+   para i de 1 ate 2 faca
+      acumulador <- acumulador + i
+      escreval("acumulador: ", acumulador)
+   fimpara
+fimalgoritmo
